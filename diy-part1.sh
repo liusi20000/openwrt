@@ -16,4 +16,4 @@
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash
-git clone -b master https://github.com/awesome-openwrt/luci-app-control-webrestriction.git package/luci-app-control-webrestriction
+# git clone -b master https://github.com/awesome-openwrt/luci-app-control-webrestriction.git package/luci-app-control-webrestriction
