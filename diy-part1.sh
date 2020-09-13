@@ -11,7 +11,7 @@
 #
 
 #取消掉feeds.conf.default文件里面的helloworld的#注释
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default  #使用源码自带ShadowSocksR Plus+出国软件
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default  #使用源码自带ShadowSocksR Plus+出国软件
 
 # Add a feed source
 sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master' feeds.conf.default
@@ -25,9 +25,9 @@ sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master'
 #rm -rf package/luci-app-openclash
 #添加
 git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash  #openclash出国软件
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome package/adguardhome  #adguardhome广告过滤
-svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome  #adguardhome广告过滤
+# svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome package/adguardhome  #adguardhome广告过滤
+# svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome  #adguardhome广告过滤
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-atmaterial package/luci-theme-atmaterial #atmaterial主题
-git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns  #smartdns
-git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus #京东自动签到插件 
-git clone https://github.com/jerrykuku/node-request.git package/node-request #京东自动签到插件依赖
+# git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns  #smartdns
+# git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus #京东自动签到插件 
+# git clone https://github.com/jerrykuku/node-request.git package/node-request #京东自动签到插件依赖
