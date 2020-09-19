@@ -24,7 +24,7 @@ sed -i '$a src-git diy1 https://github.com/xiaorouji/openwrt-package.git;master'
 #rm -rf package/luci-theme-atmaterial
 #rm -rf package/luci-app-openclash
 #添加
-git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash  #openclash出国软件
+# git clone -b master https://github.com/vernesong/OpenClash.git package/luci-app-openclash  #openclash出国软件
 # svn co https://github.com/Lienol/openwrt/trunk/package/diy/adguardhome package/adguardhome  #adguardhome广告过滤
 # svn co https://github.com/Lienol/openwrt/trunk/package/diy/luci-app-adguardhome package/luci-app-adguardhome  #adguardhome广告过滤
 svn co https://github.com/project-openwrt/openwrt/trunk/package/ctcgfw/luci-theme-atmaterial package/luci-theme-atmaterial #atmaterial主题
